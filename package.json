@@ -1,6 +1,6 @@
 {
     "name": "@alliedtelesis/rustTest",
-    "version": "0.51.0",
+    "version": "0.1.0",
     "main": "index.js",
     "types": "index.d.ts",
     "napi": {
@@ -24,13 +24,7 @@
       "node": ">=18.12.0"
     },
     "scripts": {
-      "artifacts": "napi artifacts",
-      "build": "napi build --platform --release",
-      "build:debug": "napi build --platform",
-      "prepublishOnly": "napi prepublish -t npm",
-      "test": "ava",
-      "universal": "napi universal",
-      "version": "napi version"
+      "build": "napi build --platform --release"
     },
     "packageManager": "yarn@4.0.2"
   }
